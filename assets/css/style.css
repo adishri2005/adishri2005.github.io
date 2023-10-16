@@ -1,20 +1,3 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-
-/**
- *
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 :root {
 
   /**
@@ -112,9 +95,6 @@
 }
 
 
-
-
-
 /*-----------------------------------*\
   #RESET
 \*-----------------------------------*/
@@ -156,9 +136,6 @@ input, textarea {
 html { font-family: var(--ff-poppins); }
 
 body { background: var(--smoky-black); }
-
-
-
 
 
 /*-----------------------------------*\
@@ -292,10 +269,6 @@ article.active {
   z-index: -1;
 }
 
-
-
-
-
 /*-----------------------------------*\
   #MAIN
 \*-----------------------------------*/
@@ -305,10 +278,6 @@ main {
   margin-bottom: 75px;
   min-width: 259px;
 }
-
-
-
-
 
 /*-----------------------------------*\
   #SIDEBAR
@@ -446,10 +415,6 @@ main {
 
 .social-item .social-link:hover { color: var(--light-gray); }
 
-
-
-
-
 /*-----------------------------------*\
   #NAVBAR
 \*-----------------------------------*/
@@ -486,10 +451,6 @@ main {
 .navbar-link:focus { color: var(--light-gray-70); }
 
 .navbar-link.active { color: var(--orange-yellow-crayola); }
-
-
-
-
 
 /*-----------------------------------*\
   #ABOUT
@@ -756,10 +717,6 @@ main {
 
 .clients-item img:hover { filter: grayscale(0); }
 
-
-
-
-
 /*-----------------------------------*\
   #RESUME
 \*-----------------------------------*/
@@ -866,10 +823,6 @@ main {
   height: 100%;
   border-radius: inherit;
 }
-
-
-
-
 
 /*-----------------------------------*\
   #PORTFOLIO
@@ -1026,10 +979,6 @@ main {
   font-weight: var(--fw-300);
 }
 
-
-
-
-
 /*-----------------------------------*\
   #BLOG
 \*-----------------------------------*/
@@ -1113,10 +1062,6 @@ main {
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
-
-
-
-
 
 /*-----------------------------------*\
   #CONTACT
@@ -1220,10 +1165,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 .form-btn:disabled:hover { background: var(--border-gradient-onyx); }
 
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
-
-
-
-
 
 /*-----------------------------------*\
   #RESPONSIVE
